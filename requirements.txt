@@ -1,0 +1,22 @@
+# --- Web framework ---
+fastapi==0.115.2
+uvicorn[standard]==0.32.0
+jinja2==3.1.4
+
+# --- HTTP & Parsing ---
+requests==2.32.3
+beautifulsoup4==4.12.3
+httpx==0.27.2
+
+# --- Data handling ---
+pandas==2.2.3
+
+# --- Google Cloud (optional but recommended for future Secret Manager, etc.) ---
+google-cloud-secret-manager==2.20.2
+google-api-python-client==2.149.0
+
+# --- Multipart form handling (for FastAPI forms) ---
+python-multipart==0.0.9
+
+# --- Optional: improves performance & async DNS ---
+aiohttp==3.10.8

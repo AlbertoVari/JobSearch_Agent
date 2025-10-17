@@ -1,0 +1,23 @@
+body {
+  background-color: #f8fafc;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+h5.card-title {
+  font-weight: 600;
+}
+
+table th, table td {
+  vertical-align: middle !important;
+}
+
+footer {
+  font-size: 0.9rem;
+}
