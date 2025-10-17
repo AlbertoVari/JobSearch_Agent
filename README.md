@@ -47,14 +47,17 @@ Nessun server da mantenere
 Log accessibili direttamente da Cloud Console
 
 🧩 Architettura
-Componente	Tecnologia	Descrizione
-Backend API	FastAPI (Python 3.11)	Gestione richieste, logica business e integrazioni
-Frontend	Jinja2 + Bootstrap	Rendering HTML dinamico lato server
-AI Ranking	Regole euristiche su testo	Punteggio per pertinenza e seniority
-Search Engine	Google Custom Search API	Recupero offerte reali dal web
-Hosting	Google Cloud Run	Deploy container serverless
-Build system	Cloud Build + Docker	Pipeline CI/CD integrata
+
+Componente	    Tecnologia	                                  Descrizione
+Backend         API	FastAPI (Python 3.11)	                   Gestione richieste, logica business e integrazioni
+Frontend	    Jinja2 + Bootstrap	                           Rendering HTML dinamico lato server
+AI Ranking	    Regole euristiche su testo	                   Punteggio per pertinenza e seniority
+Search Engine	Google Custom Search API	                   Recupero offerte reali dal web
+Hosting	         Google Cloud Run	                           Deploy container serverless
+Build system	 Cloud Build + Docker	                       Pipeline CI/CD integrata
+
 🏗️ Struttura del progetto
+
 job-agent/
 │
 ├── app.py                  # Entry point principale FastAPI
@@ -69,6 +72,7 @@ job-agent/
     └── style.css           # Stili personalizzati
 
 ⚙️ Setup locale
+
 1️⃣ Clona il repository
 git clone https://github.com/<tuo-utente>/jobsearch-agent.git
 cd jobsearch-agent
@@ -114,6 +118,7 @@ Imposta i domini consentiti (es. linkedin.com, glassdoor.com, indeed.com)
 Recupera il tuo CX ID e API Key da Google Cloud Console
 
 🧾 Requisiti
+
 Libreria	Versione minima
 fastapi	0.115.2
 uvicorn	0.30.1
@@ -121,7 +126,7 @@ requests	2.32.3
 jinja2	3.1.4
 python-multipart	0.0.9
 google-cloud-secret-manager	2.21.0
-👨‍💻 Autore
+
 
 
 App AI sviluppata per la ricerca intelligente di opportunità di lavoro, basata su tecnologie cloud e intelligenza artificiale.
