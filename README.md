@@ -38,8 +38,6 @@ Form di ricerca (ruolo + località)
 
 Tabella risultati dinamica e ordinata per punteggio
 
-Firma discreta “By Alberto Varignana”
-
 ✅ Deploy serverless su Google Cloud Run
 
 Auto-scaling gestito da Google
@@ -125,7 +123,6 @@ python-multipart	0.0.9
 google-cloud-secret-manager	2.21.0
 👨‍💻 Autore
 
-By Alberto Varignana
 
 App AI sviluppata per la ricerca intelligente di opportunità di lavoro, basata su tecnologie cloud e intelligenza artificiale.
 
